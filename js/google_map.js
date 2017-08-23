@@ -24,7 +24,7 @@
             '<p>شركه مصرية مساهمة مسجله بقرار رقم (224) للهيئه العامه للرقابه الماليه بترخيص رقم (70) ,سجل تجارى 102310 بطاقه ضريبية 61614.</p>' +
             '<p dir="ltr"><b>Address:</b> 10 kamal Eldin Hussein (F2) Heliopolis – Sheraton buildings – Cairo – Egypt<br/><b>Land line:</b> 002 02 22672674  <br/>' +
             '<b>Mob:</b> 002 01200067801<br/><br/>' +
-            '<a target="_blank" href="https://www.google.com/maps/place/%D8%B4%D9%80%D8%A7%D9%85+%D8%AA%D9%80%D9%83%D9%80%D8%B3+SHAMTEX+CO.SA%E2%80%AD/@30.2320086,31.7451463,17z/data=!3m1!4b1!4m5!3m4!1s0x1457fc742ca7cf45:0x99898095f8a75678!8m2!3d30.232004!4d31.747335?hl=en-US">'+
+            '<a target="_blank" href="https://www.google.com/maps/place/Shaam+Insurance+Broker+Co./@30.1061561,31.3643695,17z/data=!3m1!4b1!4m5!3m4!1s0x1458166d90e400a1:0x3ce8a3ab1052f1db!8m2!3d30.1061561!4d31.3665582?hl=en-US">'+
             'View SIB on Google Maps</a></p>'+
             '</div>' +
             '</div>';

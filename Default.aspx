@@ -383,6 +383,10 @@
                     <div id="carousel-works" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
+                                <img src="img/intro-img7.jpg" class="img-responsive"/><a href="img/intro-img7.jpg" class="view work-box">                                   
+                                    <i class="fa fa-external-link"></i> View</a>
+                            </div>
+                            <div class="item">
                                 <img src="img/intro-img3.jpg" class="img-responsive"/><a href="img/intro-img3.jpg" class="view work-box">                                   
                                     <i class="fa fa-external-link"></i> View</a>
                             </div>

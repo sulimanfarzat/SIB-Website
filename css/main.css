@@ -201,7 +201,7 @@ ul li {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url('../img/slider/hause.jpg') no-repeat fixed center center;
+    background: url('../img/slider/sib-back.png') no-repeat fixed center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -210,43 +210,39 @@ ul li {
     overflow: hidden;
 }
 
-.bg2
-{
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;  background: url('../img/slider/important.jpg') no-repeat fixed center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;  
-    vertical-align: middle;
-    overflow: hidden;
-   
-}
-.bg3
-{
-     display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;  background: url('../img/slider/maritime.jpg') no-repeat fixed center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;  
-    vertical-align: middle;
-    overflow: hidden;
-    
-
-}
-
-.bg4
-{
+.bg2 {
     display: table;
     position: relative;
     width: 100%;
     height: 100%;
-    background: url('../img/slider/banner5.jpg') no-repeat fixed center center;
+    background: url('../img/slider/hause.jpg') no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.bg3 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('../img/slider/important.jpg') no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.bg4 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('../img/slider/maritime.jpg') no-repeat fixed center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
