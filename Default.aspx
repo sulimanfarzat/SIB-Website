@@ -1,4 +1,4 @@
-﻿<!--<%@ Page Language="C#" AutoEventWireup="true" CodeFile="default.aspx.cs" Inherits="_default" %>-->
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="default.aspx.cs" Inherits="_default" %>
 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -1265,7 +1265,8 @@ Always include the HTML5 doctype at the beginning of the page, along with the la
             <li><a href="#" data-toggle="modal" data-target="#myModal-3">تأمين الحوادث الشخصية</a></li>
             <li><a href="#" data-toggle="modal" data-target="#myModal-4">التأمين الهندسى</a></li>
             <li><a href="#" data-toggle="modal" data-target="#myModal-5">التأمين الطبي</a></li>
-            <li><a href="#" data-toggle="modal" data-target="#myModal-6">التأمين المسافر</a></li><br />
+            <li><a href="#" data-toggle="modal" data-target="#myModal-6">تأمين المسافر</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal-7">تأمين أجسام السفن</a></li>
           </ul>
           </p>
           </div>
@@ -1288,7 +1289,6 @@ Always include the HTML5 doctype at the beginning of the page, along with the la
         <!-- Google Map -->
 	    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD78LCnT0AdXrWY4tQovfY1vCou4XfGHoA"></script>
 	    <script src="js/google_map.js"></script>
-        <script src="js/html5shiv.js"></script>
         <script type="text/javascript">
             //WOW Scroll Spy
             var wow = new WOW({

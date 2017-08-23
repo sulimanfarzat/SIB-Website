@@ -5,10 +5,10 @@
       var labelIndex = 0;
 //30.1061561, 31.3643695
       function initialize() {
-          var uluru = { lat: 30.1061561, lng: 31.3643695 };
+          var SIB = { lat: 30.1061561, lng: 31.3643695 };
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 12,
-          center: uluru
+          center: SIB
         });
 
         // This event listener calls addMarker() when the map is clicked.
@@ -33,10 +33,10 @@
         });
 
         var marker = new google.maps.Marker({
-            position: uluru,
+            position: SIB,
             map: map,
             icon: 'img/map.png',
-            title: 'Uluru (Ayers Rock)'
+            title: 'SIB - شركة شآم للوساطه التأمينيه'
         });
         marker.addListener('click', function () {
             infowindow.open(map, marker);
