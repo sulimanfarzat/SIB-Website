@@ -1,0 +1,27 @@
+﻿10 خطوط ويب عربية جاهزة للتحميل
+
+لقد شهدنا في العام المنصرم 2012 ثورة في عالم تطوير مواقع الويب كان من أهم نتائجها تطور وإنتشار إستخدام خطوط الويب المخصصة Custom Web Fonts وذلك عبر CSS Rule قاعدة السي اس اس @font-face التي تتيح إستخدام فونت مخصص في مواقع الإنترنت ولا يشترط لظهوره في المتصفح أن يكون قد تم تنصيبه على جهاز زائر الموقع.
+
+التوافقية مع متصفحات الإنترنت
+
+عند إستخدام @font-face تواجهنا تحديات من أهمها أن يظهر الخط بالشكل المطلوب لدى كل زوار الموقع, وذلك يتطلب أن يتم إعداد الخط بأكثر من نسق من التنسيقات المتاحة Web Fonts Formats: ttf, woff, woff2, eot, svg, otf حتى تستطيع أغلب المتصفحات عرضه.
+
+لقد قمت بتجهيز التنسيقات المختلفة الضرورية لتعمل الخطوط المجانية التالية على المتصفحات الشائعة: IE7, IE8, IE9, IE10, Firefox, Chrome, Safari.
+
+تم تجهيز كود CSS الشامل التنسيقات الضرورية لكل خط كي تقوم بإدراجه بسهولة في تصميمك. ستجده في الملف style.css الموجود في كل مجلدات الخطوط أدناه. مثال:
+
+
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 400;
+  src: url(Amiri-Regular.eot);
+  src: url(Amiri-Regular.eot?#iefix) format('embedded-opentype'),
+       url(Amiri-Regular.woff2) format('x-woff2'),
+       url(Amiri-Regular.woff) format('woff'),
+       url(Amiri-Regular.ttf) format('truetype');
+}
+
+
+
+http://www.ta3rip.com/download-10-arabic-web-fonts.html

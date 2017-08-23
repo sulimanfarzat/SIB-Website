@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'AE Sindibad';
+	font-weight: normal;
+	font-style: normal;
+	src: local('?'),
+		src: url('ae_Sindibad.eot');
+		src: url('ae_Sindibad.woff') format('woff'),
+		url('ae_Sindibad.ttf') format('truetype'),
+		url('ae_Sindibad.svg') format('svg');
+}

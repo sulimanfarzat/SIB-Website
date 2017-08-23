@@ -1,0 +1,7 @@
+@font-face {
+	font-family: "K Karman";
+        src: url("k_kamran.eot"); /* IE 9 */
+    	src: url("k_kamran.eot?") format("eot"), /* IE 6-8 */
+             url("k_kamran.otf") format("opentype"), /* Other browsers */
+    	     url("k_kamran.ttf") format("truetype"); /* Safari, Android, iOS */
+}
