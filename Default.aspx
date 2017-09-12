@@ -45,6 +45,19 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-104945581-2', 'auto');
+    ga('require', 'GTM-TRC6HRN');
+    ga('send', 'pageview');
+
+</script>
 </head>
 
 <body id="hme">
@@ -98,7 +111,8 @@
                              <li class="wow fadeInUpBig w3-margin-bottom" data-wow-duration="1500ms" data-wow-delay="300ms"> <i class="fa fa-square wow fadeInRightBig" data-wow-duration="1500ms" data-wow-delay="280ms"> </i> نقدم الخدمات فيما يخص كيفية إصدار الوثائق التأمينية بالإضافة إلى إصدارها وتجديدها.</li>
                              <li class="wow fadeInUpBig w3-margin-bottom" data-wow-duration="1800ms" data-wow-delay="600ms"> <i class="fa fa-square wow fadeInRightBig" data-wow-duration="1800ms" data-wow-delay="580ms"> </i> نعمل مع أفضل شركات التأمين وذلك حرصا على تقديم أفضل المزايا والتغطيات.</li>
                           </ul>
-                            
+                            <div class="w3-amber car-highlight1 wow fadeInUp" data-wow-duration="2500ms" data-wow-delay="600ms">
+كل عام وأنتم بألف خير بمناسبة عيد الأضحى المبارك.						</div>
                             <br/>
                            <div class="text-left buttonleft hidden-xs">
                            <a href="#services" class="btn btn-lg btn-borderwhite wow fadeInUp page-scroll" data-wow-duration="1500ms" data-wow-delay="1200ms">Get Started</a> 
@@ -140,6 +154,7 @@
                         <div class="car-highlight1 wow fadeInUp" data-wow-duration="2500ms" data-wow-delay="600ms">
                         تأمين الممتلكات والتأمينات العامة من حريق وسطو وحوادث متنوعة
 						</div>
+                        
 					</div>
 				</div>
 			</div>
@@ -224,6 +239,16 @@
                           </i> هل تبحث عن عمل؟  <i class="w3-text-blue fa fa-linkedin"></i></a> 
                   </div>
 
+      <!--<div id="octagon"></div><br />-->
+      
+      <div class="scrollItem"></div>
+
+      <div class="scrollItem"></div>
+
+      <div class="scrollItem"></div>
+
+      <div class="scrollItem"></div>
+      <div class="scrollItem"></div>
 
     <div class="row">
       <div class="col-md-4 col-sm-6 services"> <span class="icon icon-key "></span>
@@ -281,6 +306,7 @@
       </div>
     </div>
   </div>
+
 </section>
         <!-- services section -->
         <!-- about section -->
@@ -355,6 +381,7 @@
       </div>
     </div>
   </div>
+
 </section>
         <!-- about section -->
         <!-- Work -->

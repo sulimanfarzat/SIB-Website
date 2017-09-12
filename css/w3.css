@@ -1808,3 +1808,94 @@ input:focus ~ .highlight, textarea:focus ~ .highlight {
         background: transparent;
     }
 }
+
+
+/*شعار مضلع*/ 
+#octagon {
+    width: 0px;
+    height: 0px;
+    background: 0;
+    position: relative;
+}
+
+#octagon:before {
+    background: blue;
+    height: 100px;
+    width: 100px;
+    content: "";
+    position: absolute;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/*#octagon:after {
+    background: red;
+    height: 100px;
+    width: 100px;
+    content: "";
+    position: absolute;
+    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}*/
+.hexagon {
+    width: 100px;
+    height: 50px;
+    background: red;
+    position: relative;
+    left:150px;
+}
+
+    .hexagon:before {
+        content: "";
+        position: absolute;
+        top: -25px;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 25px solid red;
+    }
+
+    .hexagon:after {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 25px solid red;
+    }
+.it_0, .it_1, .it_2, .it_3, .it_4 {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    vertical-align: central;
+    align-items: center;
+}
+.it_0 {
+    background: url('../img/insurance/company.png')no-repeat center center fixed;
+    right: 10px;
+    margin-top: 10px;
+}
+.it_1 {
+    /*background: url('../img/insurance/house.png')no-repeat center center fixed;*/
+    right: 10px;
+}
+.it_2 {
+    background: url('../img/insurance/car.png')no-repeat center center fixed;
+    right: 5px;
+    margin-top: 300px;
+}
+.it_3 {
+    background: url('../img/insurance/business.png')no-repeat center center fixed;
+    left: 10px;
+    margin-top: 150px;
+}
+.it_4 {
+    background: url('../img/insurance/medicine.png')no-repeat center center fixed;
+    left: 10px;
+    margin-top: -100px;
+}
